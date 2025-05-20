@@ -15,6 +15,7 @@ Synthesis: Genus
 Synthesis requires three files as follows,
 
 ◦ Liberty Files (.lib)
+![image](https://github.com/user-attachments/assets/a3dfc279-08cf-491a-9b6c-fd68320d962b)
 
 ◦ Verilog/VHDL Files (.v or .vhdl or .vhd)
 
@@ -100,11 +101,13 @@ end
 end
 ```
 ◦ SDC (Synopsis Design Constraint) File (.sdc)
-
+![image](https://github.com/user-attachments/assets/035a8c83-4d9a-44ec-932a-264d5f340dfe)
 
  ### Step 2 : Creating an SDC File
 
 •	In your terminal type “gedit input_constraints.sdc” to create an SDC File if you do not have one.
+![Screenshot 2025-05-20 140652](https://github.com/user-attachments/assets/02a49424-6ed2-4d0e-ada6-bee052c87532)
+
 
 •	The SDC File must contain the following commands;
 
@@ -142,19 +145,23 @@ used.
 ◦ source /cadence/install/cshrc
 
 • The tool used for Synthesis is “Genus”. Hence, type “genus -gui” to open the tool.
+![Screenshot 2025-05-09 114342](https://github.com/user-attachments/assets/401bb372-1dc4-4f1b-ad87-785ec9fd78af)
+![Screenshot 2025-05-20 141238](https://github.com/user-attachments/assets/d600144c-8438-40be-9545-1c06068927ff)
+
 
 • Genus Script file with .tcl file Extension commands are executed one by one to synthesize the netlist.
 
 #### Synthesis RTL Schematic :
-![santo schematic](https://github.com/user-attachments/assets/2503478b-9a66-4c8a-bf5c-6ef8a566e995)
 
 
 #### Area report:
-![santo area](https://github.com/user-attachments/assets/5954d48e-e630-4fc2-a36b-7061e60dbab2)
+![Screenshot 2025-05-20 141626](https://github.com/user-attachments/assets/384682e2-2a9c-4c60-839f-75a7919bbc7c)
+
 
 
 #### Power Report:
-![santo power](https://github.com/user-attachments/assets/f7c46707-c187-4d2b-98fe-a1fb5258ad8a)
+![Screenshot 2025-05-20 141729](https://github.com/user-attachments/assets/698344b5-e326-442d-b4e5-c587e83080bb)
+
 
 
 #### Timing Report: 
@@ -165,6 +172,9 @@ used.
 #### Result: 
 
 The generic netlist has been created, and area, power, and timing reports have been tabulated and generated using Genus.
+![image](https://github.com/user-attachments/assets/18873b94-a5a0-4b14-97f2-7ee419a1c2a4)
+
+
 
 
 
